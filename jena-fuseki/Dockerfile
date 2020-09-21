@@ -22,6 +22,8 @@ RUN set -eux; \
     apt-get update; \
     apt-get install -y --no-install-recommends \
        bash curl ca-certificates findutils coreutils pwgen \
+       procps vim nano tree \
+       ruby
     ; \
     rm -rf /var/lib/apt/lists/*
 
