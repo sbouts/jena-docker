@@ -23,7 +23,7 @@ RUN set -eux; \
     apt-get install -y --no-install-recommends \
        bash curl ca-certificates findutils coreutils pwgen \
        procps vim nano tree \
-       ruby
+       ruby \
     ; \
     rm -rf /var/lib/apt/lists/*
 
